@@ -1,0 +1,20 @@
+# Created with WinGet Automation using Komac v1.9.1
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
+
+PackageIdentifier: Andersama.obs-asio
+PackageVersion: 3.1.1
+PackageLocale: en-US
+Publisher: Andersama
+PublisherUrl: https://github.com/Andersama
+PublisherSupportUrl: https://github.com/Andersama/obs-asio/issues
+PackageName: obs-asio
+PackageUrl: https://github.com/Andersama/obs-asio
+License: GPL3
+LicenseUrl: https://github.com/Andersama/obs-asio/blob/asio-juce/LICENSE
+ShortDescription: ASIO plugin for OBS-Studio
+ReleaseNotes: |-
+  What's Changed
+  - patch: remove silent buffer allocation in audio thread by @Andersama in #92
+ReleaseNotesUrl: https://github.com/Andersama/obs-asio/releases/tag/v3.1.1
+ManifestType: defaultLocale
+ManifestVersion: 1.4.0
