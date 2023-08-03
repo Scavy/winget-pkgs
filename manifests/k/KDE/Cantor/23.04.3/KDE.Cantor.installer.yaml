@@ -1,0 +1,13 @@
+# Created with WinGet Automation using Komac v1.10.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: KDE.Cantor
+PackageVersion: 23.04.3
+InstallerType: nullsoft
+ReleaseDate: 2023-07-29
+Installers:
+- Architecture: x64
+  InstallerUrl: https://binary-factory.kde.org/view/Windows 64-bit/job/Cantor_Release_win64/974/artifact/cantor-23.04.3-974-windows-cl-msvc2019-x86_64.exe
+  InstallerSha256: 4F405E4DFEC2E8D5D6438AD8DE33A9CADE1FB0012BFEED22C7ED36948E55907C
+ManifestType: installer
+ManifestVersion: 1.4.0
