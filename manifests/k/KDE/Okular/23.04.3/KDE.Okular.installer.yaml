@@ -1,0 +1,22 @@
+# Created with WinGet Automation using Komac v1.10.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: KDE.Okular
+PackageVersion: 23.04.3
+InstallerType: nullsoft
+ReleaseDate: 2023-07-30
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://binary-factory.kde.org/view/Windows 64-bit/job/Okular_Release_win64/1468/artifact/okular-23.04.3-1468-windows-cl-msvc2019-x86_64.exe
+  InstallerSha256: 7B3509ED95414709EA51BEE9F8D6CFD69147B00FD98DB292F7DDD286D1D7FE27
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://binary-factory.kde.org/view/Windows 64-bit/job/Okular_Release_win64/1468/artifact/okular-23.04.3-1468-windows-cl-msvc2019-x86_64.exe
+  InstallerSha256: 7B3509ED95414709EA51BEE9F8D6CFD69147B00FD98DB292F7DDD286D1D7FE27
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.4.0
