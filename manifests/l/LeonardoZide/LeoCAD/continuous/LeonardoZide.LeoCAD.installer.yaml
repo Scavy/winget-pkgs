@@ -1,0 +1,16 @@
+# Created with WinGet Automation using Komac v1.10.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: LeonardoZide.LeoCAD
+PackageVersion: continuous
+InstallerType: nullsoft
+ReleaseDate: 2023-07-10
+AppsAndFeaturesEntries:
+- DisplayVersion: 697e89b1
+  ProductCode: LeoCAD
+Installers:
+- Architecture: x86
+  InstallerUrl: https://github.com/leozide/leocad/releases/download/continuous/LeoCAD-Windows-7b154fa4.exe
+  InstallerSha256: C129D294EFD9EFDE3AC1A8253DB0B3393AD10F52EB29BEF52CF70174D83D8909
+ManifestType: installer
+ManifestVersion: 1.4.0
